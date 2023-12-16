@@ -11,11 +11,12 @@
     }
     .sent{
         @apply flex-row-reverse
-        p{
-            @apply text-white bg-[#0b93f6] self-end
-        }
+        
     }
-    .received{
+    .sent p{
+        @apply text-white bg-[#0b93f6] self-end
+    }
+    .received p{
         @apply bg-[#e5e5ea] text-black
     }
 }
