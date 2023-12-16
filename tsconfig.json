@@ -1,0 +1,10 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "NodeNext",
+        "noEmit": true,
+        "strict": true,
+        "jsx":"react-jsx"
+    }
+}
