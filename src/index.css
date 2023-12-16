@@ -19,4 +19,7 @@
     .received p{
         @apply bg-[#e5e5ea] text-black
     }
+    .reg-form{
+        @apply bg-slate-400 text-black border border-black rounded-md;
+    }
 }

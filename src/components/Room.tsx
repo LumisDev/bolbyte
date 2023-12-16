@@ -34,9 +34,9 @@ const Room= (props: Props) => {
         </main>
         <form onSubmit={sendMessage}>
 
-            <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" />
+            <input value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice" className='reg-form'/>
 
-            <button type="submit" disabled={!formValue}>🕊️</button>
+            <button type="submit" disabled={!formValue} className="utility-button">🕊️</button>
 
         </form>
     </>
